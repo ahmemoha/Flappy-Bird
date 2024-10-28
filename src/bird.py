@@ -2,7 +2,7 @@ import pygame
 
 # Load bird image
 bird_img = pygame.image.load("images/bird_image.png")  # Load your bird image file here
-bird_img = pygame.transform.scale(bird_img, (55, 55))  # Adjust size as needed
+bird_img = pygame.transform.scale(bird_img, (55, 45))  # Adjust size as needed
 
 class Bird:
     def __init__(self):
